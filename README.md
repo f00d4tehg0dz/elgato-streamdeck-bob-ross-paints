@@ -9,6 +9,12 @@
 - lets you view the respective Bob Ross YouTube video of the process of him painting the art in your Stream Deck button
 - localized in German and Spanish
 
+## Installation
+
+Download from Release folder [Release Folder](Release/com.f00d4tehg0dz.bobrosspaints.streamDeckPlugin)
+
+Double click to install to StreamDeck.
+
 ## Demo
 
 ![](https://github.com/f00d4tehg0dz/elgato-streamdeck-bob-ross-paints/blob/main/screenshot/bob-ross-paints.gif?raw=true)

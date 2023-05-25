@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>Bob Ross Painting</title>
+    <link rel="stylesheet" href="../../../libs/css/sdpi.css" />
+</head>
+
+<body>
+    <div class="sdpi-wrapper">
+        <!-- Tabs Section -->
+        <div type="tabs" class="sdpi-item">
+            <div class="sdpi-item-label empty"></div>
+            <div class="tabs">
+                <div class="tab selected" data-target="#tab1" title="Watch Video">Watch</div>
+                <div class="tab" data-target="#tab2" title="Instructions">Instructions</div>
+            </div>
+        </div>
+        <hr class="tab-separator">
+
+        <!-- Property Inspector Form -->
+        <form id="property-inspector">
+            <!-- Tab 1: Watch/Save -->
+            <div id="tab1" class="tab-container">
+                <div class="sdpi-item">
+                    <div data-localize class="sdpi-item-label" title="YouTube Video">Watch Bob Ross Paint this</div>
+                    <button class="sdpi-item-value" value="Watch" data-localize id="youtube-video">
+                        Watch Video
+                    </button>
+                </div>
+            </div>
+
+            <!-- Tab 2: Instructions -->
+            <div id="tab2" class="tab-container">
+                <div class="sdpi-item">
+                    <div data-localize class="sdpi-item-label" title="Instructions">Instructions</div>
+                    <p>Bob Ross displays a new Painting when you press the button.<br>
+                        Press Watch to view Bob Ross creation process on YouTube!<br>
+                        <br>You can learn more about this plugin by visiting its <button class="sdpi-item-value"
+                            value="GitHub" data-localize id="github">
+                            GitHub Page
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </form>
+
+        <!-- Hidden elements for storing episode information -->
+        <div id="currentEpisodeVideoLink" style="display:none"></div>
+        <img id="currentEpisodeImage" height="144" width="144" style="display:none"></img>
+    </div>
+
+    <!-- Hidden element for displaying info label -->
+    <div class="sdpi-info-label hidden" style="top: -1000" value=""></div>
+
+    <!-- Stream Deck Libs -->
+    <script src="../../../libs/js/constants.js"></script>
+    <script src="../../../libs/js/prototypes.js"></script>
+    <script src="../../../libs/js/timers.js"></script>
+    <script src="../../../libs/js/utils.js"></script>
+    <script src="../../../libs/js/events.js"></script>
+    <script src="../../../libs/js/api.js"></script>
+    <script src="../../../libs/js/property-inspector.js"></script>
+    <script src="../../../libs/js/dynamic-styles.js"></script>
+
+    <!-- Property Inspector Source -->
+    <script src="inspector.js"></script>
+</body>
+
+</html>

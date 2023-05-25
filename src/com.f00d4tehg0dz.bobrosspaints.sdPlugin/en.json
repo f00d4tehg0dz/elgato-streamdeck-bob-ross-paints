@@ -1,0 +1,15 @@
+{
+  "Description": "View a Bob Ross Painting with a click of a button!",
+  "Name": "Bob Ross Paints",
+  "Category": "Engagement",
+  "com.f00d4tehg0dz.bobrosspaints.action": {
+    "Name": "Bob Ross Paints",
+    "Tooltip": "A happy tree for everyone"
+  },
+  "Localization": {
+    "Instructions": "Instructions",
+    "Watch Video": "Watch Video",
+    "Watch Bob Ross Paint this": "Watch Bob Ross Paint this",
+    "GitHub Page": "GitHub Page"
+  }
+}

@@ -11,7 +11,7 @@
 
 ## Installation
 
-Download from Release folder [Release Folder](Release/com.f00d4tehg0dz.bobrosspaints.streamDeckPlugin)
+Download from [Release Folder](Release/com.f00d4tehg0dz.bobrosspaints.streamDeckPlugin)
 
 Double click to install to StreamDeck.
 
